@@ -10,7 +10,15 @@ import UIKit
 
 class FourthViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var myComment: UITextField!
+    
+    @IBAction func addComment(_ sender: Any)
+    {
+        
+    }
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

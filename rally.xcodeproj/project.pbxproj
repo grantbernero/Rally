@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F690BAC1DFA485A00F28D69 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F690BAB1DFA485A00F28D69 /* ViewControllerTableViewCell.swift */; };
 		3F98D01A1DF7B8AF00605295 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D0191DF7B8AF00605295 /* SecondViewController.swift */; };
 		3F98D01C1DF7BE3100605295 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D01B1DF7BE3100605295 /* ThirdViewController.swift */; };
 		3F98D01E1DF7BE3E00605295 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D01D1DF7BE3E00605295 /* FourthViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F690BAB1DFA485A00F28D69 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		3F98D0191DF7B8AF00605295 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3F98D01B1DF7BE3100605295 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		3F98D01D1DF7BE3E00605295 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		3FE204B71DF71A39005DF326 = {
 			isa = PBXGroup;
 			children = (
+				3F690BAB1DFA485A00F28D69 /* ViewControllerTableViewCell.swift */,
 				3F98D01B1DF7BE3100605295 /* ThirdViewController.swift */,
 				3F98D01D1DF7BE3E00605295 /* FourthViewController.swift */,
 				3F98D01F1DF7BE4D00605295 /* FifthViewController.swift */,
@@ -276,6 +279,7 @@
 			files = (
 				3F98D0201DF7BE4D00605295 /* FifthViewController.swift in Sources */,
 				3F98D0221DF7BE5D00605295 /* SixthViewController.swift in Sources */,
+				3F690BAC1DFA485A00F28D69 /* ViewControllerTableViewCell.swift in Sources */,
 				3F98D01A1DF7B8AF00605295 /* SecondViewController.swift in Sources */,
 				3FE204C61DF71A39005DF326 /* ViewController.swift in Sources */,
 				3F98D01C1DF7BE3100605295 /* ThirdViewController.swift in Sources */,

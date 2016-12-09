@@ -10,10 +10,19 @@ import UIKit
 
 class SecondViewController: UIViewController
 {
+    var tapCount: Int = 0
+    
+    @IBAction func addPoint(_ sender: Any)
+    {
+        tapCount += 1
+        list.append("Point \(tapCount)")
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
     }
+    
     
     /*
     // MARK: - Navigation
