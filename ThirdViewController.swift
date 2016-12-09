@@ -13,12 +13,19 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var emptyTennisCourt: UIImageView!
     @IBOutlet weak var labelOpponent: UILabel!
     @IBOutlet weak var labelPlayer: UILabel!
-    
+     let myTap = UITapGestureRecognizer()
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        emptyTennisCourt.addTarget(self, action: "tappedView")
+        emptyTennisCourt.addGestureRecognizer(myTap)
+    }
+    
+    func imageTapped(img: AnyObject)
+    {
+        // Your action
     }
 
     /*
