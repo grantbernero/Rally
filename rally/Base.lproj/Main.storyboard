@@ -23,34 +23,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCZ-82-1fr">
-                                <rect key="frame" x="85" y="199" width="205" height="159"/>
-                                <color key="backgroundColor" white="0.89887152777777779" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="85" y="230" width="205" height="159"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="159" id="9Xy-mn-Dgb"/>
+                                    <constraint firstAttribute="height" constant="159" id="5ni-r1-bvN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="33"/>
                                 <state key="normal" title="New Match">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="xDw-2a-zqm" kind="show" identifier="" id="CYe-lY-UrM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgJ-HO-piJ">
-                                <rect key="frame" x="85" y="431" width="205" height="159"/>
-                                <color key="backgroundColor" white="0.89887152780000001" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="85" y="397" width="205" height="159"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="33"/>
                                 <state key="normal" title="Instructions">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="ifC-7Q-l7Z" kind="show" identifier="" id="Rgx-rl-7La"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RALLY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymI-fM-Lwu">
-                                <rect key="frame" x="16" y="72" width="343" height="112"/>
+                                <rect key="frame" x="16" y="47" width="343" height="112"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="112" id="0EF-Ht-V1E"/>
+                                    <constraint firstAttribute="height" constant="112" id="0cA-AA-CLI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="82"/>
                                 <nil key="textColor"/>
@@ -59,16 +59,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="eCZ-82-1fr" firstAttribute="leading" secondItem="TgJ-HO-piJ" secondAttribute="leading" id="2vg-Jk-8S2"/>
-                            <constraint firstItem="TgJ-HO-piJ" firstAttribute="top" secondItem="eCZ-82-1fr" secondAttribute="bottom" constant="73" id="53z-eC-iol"/>
-                            <constraint firstItem="eCZ-82-1fr" firstAttribute="trailing" secondItem="TgJ-HO-piJ" secondAttribute="trailing" id="JXc-Lc-drS"/>
-                            <constraint firstItem="eCZ-82-1fr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="KOT-Kx-zvf"/>
-                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="LbW-A1-KRN"/>
-                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="ZGd-EC-Hmp"/>
-                            <constraint firstItem="eCZ-82-1fr" firstAttribute="top" secondItem="ymI-fM-Lwu" secondAttribute="bottom" constant="15" id="mjv-3i-z2U"/>
-                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="niZ-ic-AlQ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TgJ-HO-piJ" secondAttribute="bottom" constant="77" id="orc-jV-P5y"/>
-                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="centerX" secondItem="eCZ-82-1fr" secondAttribute="centerX" id="vKo-ny-Kdp"/>
+                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="8Rl-JO-y3w"/>
+                            <constraint firstItem="eCZ-82-1fr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="9Lb-Oi-bAd"/>
+                            <constraint firstItem="eCZ-82-1fr" firstAttribute="trailing" secondItem="TgJ-HO-piJ" secondAttribute="trailing" id="FRo-Bl-v6p"/>
+                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="P0O-Na-ibN"/>
+                            <constraint firstItem="eCZ-82-1fr" firstAttribute="top" secondItem="ymI-fM-Lwu" secondAttribute="bottom" constant="71" id="SJi-Js-Ffr"/>
+                            <constraint firstItem="TgJ-HO-piJ" firstAttribute="top" secondItem="eCZ-82-1fr" secondAttribute="bottom" constant="8" symbolic="YES" id="XMl-rC-Kai"/>
+                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="centerX" secondItem="eCZ-82-1fr" secondAttribute="centerX" id="lnB-gi-NgK"/>
+                            <constraint firstItem="eCZ-82-1fr" firstAttribute="leading" secondItem="TgJ-HO-piJ" secondAttribute="leading" id="n50-SX-ZUm"/>
+                            <constraint firstItem="ymI-fM-Lwu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="oly-sa-19w"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TgJ-HO-piJ" secondAttribute="bottom" constant="111" id="r5I-ue-SqU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="FirstViewController" id="ama-98-gxT"/>
@@ -89,43 +89,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbC-yN-zdW">
-                                <rect key="frame" x="110" y="84" width="155" height="159"/>
-                                <color key="backgroundColor" white="0.89887152780000001" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="159" id="rOg-GJ-Tfl"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="33"/>
-                                <state key="normal" title="Statistics">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wS3-Uh-0Hs">
+                                <rect key="frame" x="133" y="156" width="109" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ANy-rK-eN1">
+                                <rect key="frame" x="16" y="198" width="159" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fig-1w-8yA">
+                                <rect key="frame" x="200" y="432" width="159" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yqc-3Z-l1E">
+                                <rect key="frame" x="200" y="198" width="159" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Huz-qZ-dAJ">
+                                <rect key="frame" x="16" y="432" width="159" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhm-P1-CIC">
+                                <rect key="frame" x="21" y="67" width="332" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="29"/>
+                                <state key="normal" title="Add Point/View Statistics">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aGt-nX-KZT" kind="show" identifier="showStatistics" id="0yW-E8-KK1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhm-P1-CIC">
-                                <rect key="frame" x="110" y="452" width="155" height="53"/>
-                                <color key="backgroundColor" white="0.89887152780000001" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="33"/>
-                                <state key="normal" title="Next Point">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="addPoint:" destination="xDw-2a-zqm" eventType="touchUpInside" id="r1i-7l-pUT"/>
-                                    <segue destination="tZs-H4-do4" kind="show" identifier="" id="T8g-Km-Prp"/>
+                                    <segue destination="tZs-H4-do4" kind="show" id="ZFV-SX-Vzl"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="JQz-o0-TLk" firstAttribute="top" secondItem="dhm-P1-CIC" secondAttribute="bottom" constant="162" id="67b-3d-VWW"/>
-                            <constraint firstItem="gbC-yN-zdW" firstAttribute="centerX" secondItem="bSg-w6-tdu" secondAttribute="centerX" id="JeZ-8N-2pV"/>
-                            <constraint firstItem="gbC-yN-zdW" firstAttribute="top" secondItem="6eK-cv-yIO" secondAttribute="bottom" constant="64" id="NpQ-hb-q1J"/>
-                            <constraint firstItem="gbC-yN-zdW" firstAttribute="leading" secondItem="dhm-P1-CIC" secondAttribute="leading" id="Zdr-lY-45N"/>
-                            <constraint firstItem="gbC-yN-zdW" firstAttribute="trailing" secondItem="dhm-P1-CIC" secondAttribute="trailing" id="tPt-Sc-qol"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SecondViewController" id="0U9-PS-rst"/>
+                    <connections>
+                        <outlet property="tip1" destination="ANy-rK-eN1" id="UKe-Pq-wuP"/>
+                        <outlet property="tip2" destination="Yqc-3Z-l1E" id="Dcf-xw-Hq2"/>
+                        <outlet property="tip3" destination="Huz-qZ-dAJ" id="QfO-bc-5qt"/>
+                        <outlet property="tip4" destination="Fig-1w-8yA" id="8dt-CQ-cHG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dsj-Xd-0kT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,59 +151,132 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tennis court empty" translatesAutoresizingMaskIntoConstraints="NO" id="k3i-cT-60l">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tennis court empty" translatesAutoresizingMaskIntoConstraints="NO" id="k3i-cT-60l">
+                                <rect key="frame" x="0.0" y="108" width="375" height="484"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RS-mG-VF8">
-                                <rect key="frame" x="16" y="638" width="54" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Efp-Vf-oI5"/>
-                                    <constraint firstAttribute="width" constant="54" id="MYD-gw-7pq"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RS-mG-VF8">
+                                <rect key="frame" x="321" y="557" width="54" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opponent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7L-w6-Sbe">
-                                <rect key="frame" x="16" y="76" width="87" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="87" id="17a-aV-zYM"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Opponent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7L-w6-Sbe">
+                                <rect key="frame" x="16" y="120" width="87" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xed-e5-SeO">
-                                <rect key="frame" x="312" y="629" width="47" height="30"/>
-                                <color key="backgroundColor" white="0.67556423611111116" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="47" id="vMO-OF-8RL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90A-XH-vD1">
+                                <rect key="frame" x="0.0" y="108" width="95" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="youErrorLeft:" destination="tZs-H4-do4" eventType="touchUpInside" id="ON1-Dw-dbT"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="z0w-rC-zuA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrH-Hi-kRD">
+                                <rect key="frame" x="0.0" y="351" width="95" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="opponentErrorLeft:" destination="tZs-H4-do4" eventType="touchUpInside" id="05m-dV-KNN"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="X7r-vy-ylU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drI-gk-IIz">
+                                <rect key="frame" x="278" y="351" width="101" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="opponentErrorRight:" destination="tZs-H4-do4" eventType="touchUpInside" id="XgL-qo-mbL"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="g6t-2Z-KMx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pux-wy-UVC">
+                                <rect key="frame" x="278" y="113" width="97" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="youErrorRight:" destination="tZs-H4-do4" eventType="touchUpInside" id="qdY-kD-kZf"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="Rkk-vE-qSc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-F8-AV5">
+                                <rect key="frame" x="96" y="252" width="180" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="youWinnerShort:" destination="tZs-H4-do4" eventType="touchUpInside" id="BUO-Ua-gPa"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="jgy-ek-2eE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmv-6b-SDA">
+                                <rect key="frame" x="97" y="351" width="180" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="opponentWinnerShort:" destination="tZs-H4-do4" eventType="touchUpInside" id="E3I-Va-xRd"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="bmE-YV-EDn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVx-hm-6i7">
+                                <rect key="frame" x="96" y="163" width="180" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="youWinnerDeep:" destination="tZs-H4-do4" eventType="touchUpInside" id="j2t-Qf-RX8"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="qle-CG-Kqr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpe-An-bkh">
+                                <rect key="frame" x="97" y="446" width="180" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="opponentWinnerDeep:" destination="tZs-H4-do4" eventType="touchUpInside" id="lC7-MK-b96"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="YUq-6J-a1j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7S-Ch-rZi">
+                                <rect key="frame" x="96" y="108" width="180" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="youErrorDeep:" destination="tZs-H4-do4" eventType="touchUpInside" id="zgR-OD-1gB"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="cQE-N4-CTW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPd-Ew-QzZ">
+                                <rect key="frame" x="97" y="542" width="180" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="opponentErrorDeep:" destination="tZs-H4-do4" eventType="touchUpInside" id="m7O-sC-R38"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="XRm-hW-gkp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvv-1n-u7r">
+                                <rect key="frame" x="200" y="600" width="159" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <state key="normal" title="Player in Net">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YWj-jF-tXw" kind="show" id="Zga-t0-2TU"/>
+                                    <action selector="youErrorNet:" destination="tZs-H4-do4" eventType="touchUpInside" id="Zmt-hU-i2k"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="lkr-Vh-XY2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooh-yU-RCn">
+                                <rect key="frame" x="16" y="600" width="169" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <state key="normal" title="Opponent in Net">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="opponentErrorNet:" destination="tZs-H4-do4" eventType="touchUpInside" id="FeQ-2G-pZT"/>
+                                    <segue destination="aGt-nX-KZT" kind="show" id="ccN-OE-qD1"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="k3i-cT-60l" firstAttribute="top" secondItem="jLY-6f-7vK" secondAttribute="bottom" id="3oj-wj-wxn"/>
-                            <constraint firstItem="Xed-e5-SeO" firstAttribute="trailing" secondItem="YwH-4d-zOH" secondAttribute="trailingMargin" id="CBt-I3-oOd"/>
-                            <constraint firstItem="6O3-60-gSC" firstAttribute="top" secondItem="7RS-mG-VF8" secondAttribute="bottom" constant="8" symbolic="YES" id="ITr-yd-Eql"/>
-                            <constraint firstItem="k3i-cT-60l" firstAttribute="bottom" secondItem="6O3-60-gSC" secondAttribute="top" id="Wkr-gj-lU5"/>
-                            <constraint firstItem="6O3-60-gSC" firstAttribute="top" secondItem="Xed-e5-SeO" secondAttribute="bottom" constant="8" symbolic="YES" id="Yx2-wt-f8Z"/>
-                            <constraint firstItem="M7L-w6-Sbe" firstAttribute="top" secondItem="jLY-6f-7vK" secondAttribute="bottom" id="ZUB-mI-rdh"/>
-                            <constraint firstItem="k3i-cT-60l" firstAttribute="top" secondItem="jLY-6f-7vK" secondAttribute="bottom" constant="44" id="dDV-cJ-gfl"/>
-                            <constraint firstAttribute="trailing" secondItem="k3i-cT-60l" secondAttribute="trailing" id="ddg-Kp-B4E"/>
-                            <constraint firstItem="7RS-mG-VF8" firstAttribute="leading" secondItem="YwH-4d-zOH" secondAttribute="leadingMargin" id="fGF-2p-IQ7"/>
-                            <constraint firstItem="k3i-cT-60l" firstAttribute="leading" secondItem="YwH-4d-zOH" secondAttribute="leading" id="g6m-fp-Hph"/>
-                            <constraint firstItem="M7L-w6-Sbe" firstAttribute="leading" secondItem="7RS-mG-VF8" secondAttribute="leading" id="jfO-Xc-7Xg"/>
-                            <constraint firstItem="Xed-e5-SeO" firstAttribute="top" secondItem="jLY-6f-7vK" secondAttribute="bottom" constant="609" id="piJ-OW-4uc"/>
-                            <constraint firstItem="M7L-w6-Sbe" firstAttribute="top" secondItem="jLY-6f-7vK" secondAttribute="bottom" constant="56" id="wsD-fM-Fjq"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="emptyTennisCourt" destination="k3i-cT-60l" id="bMj-PK-9Cw"/>
@@ -204,77 +285,8 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SDV-1X-eqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="rFw-hd-E4i">
-                    <connections>
-                        <action selector="putMarker:" destination="tZs-H4-do4" id="Gvc-nd-pjX"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="4095.1999999999998" y="135.38230884557723"/>
-        </scene>
-        <!--FourthViewController-->
-        <scene sceneID="ORM-mL-o3b">
-            <objects>
-                <viewController title="FourthViewController" id="YWj-jF-tXw" customClass="FourthViewController" customModule="rally" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TdT-Ye-pmo"/>
-                        <viewControllerLayoutGuide type="bottom" id="jnP-pN-pm3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="AMn-eY-lVx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-nB-nQ8">
-                                <rect key="frame" x="85" y="469" width="205" height="159"/>
-                                <color key="backgroundColor" white="0.89887152780000001" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="159" id="nwX-Th-Gg4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="33"/>
-                                <state key="normal" title="Submit">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="addComment:" destination="YWj-jF-tXw" eventType="touchUpInside" id="yqY-bC-aLu"/>
-                                    <segue destination="xDw-2a-zqm" kind="show" identifier="addComment" id="B3u-eM-rv3"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add your comment here." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jdj-q1-Ho5">
-                                <rect key="frame" x="16" y="277" width="337" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a Comment (optional)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXs-ST-Tu1">
-                                <rect key="frame" x="7" y="51" width="360" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="zEw-zu-kue"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Jdj-q1-Ho5" firstAttribute="leading" secondItem="AMn-eY-lVx" secondAttribute="leadingMargin" id="027-ZW-tu0"/>
-                            <constraint firstItem="Jdj-q1-Ho5" firstAttribute="top" secondItem="AMn-eY-lVx" secondAttribute="top" constant="277" id="5Ku-7A-all"/>
-                            <constraint firstItem="um7-nB-nQ8" firstAttribute="leading" secondItem="AMn-eY-lVx" secondAttribute="leadingMargin" constant="69" id="Es7-El-2fi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jdj-q1-Ho5" secondAttribute="trailing" constant="6" id="G1s-ab-pq8"/>
-                            <constraint firstItem="XXs-ST-Tu1" firstAttribute="top" secondItem="TdT-Ye-pmo" secondAttribute="bottom" constant="31" id="Khr-jN-eJl"/>
-                            <constraint firstItem="XXs-ST-Tu1" firstAttribute="centerX" secondItem="um7-nB-nQ8" secondAttribute="centerX" id="QGy-TK-iqa"/>
-                            <constraint firstItem="XXs-ST-Tu1" firstAttribute="centerX" secondItem="AMn-eY-lVx" secondAttribute="centerX" id="a8H-5d-axc"/>
-                            <constraint firstItem="jnP-pN-pm3" firstAttribute="top" secondItem="um7-nB-nQ8" secondAttribute="bottom" constant="39" id="cuQ-Nt-Ux6"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="xIK-c6-hxy"/>
-                    <connections>
-                        <outlet property="myComment" destination="Jdj-q1-Ho5" id="Thp-XV-ThC"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iQz-O8-kae" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4799.1999999999998" y="136.28185907046478"/>
         </scene>
         <!--FifthViewController-->
         <scene sceneID="2Gh-W0-tIN">
@@ -288,18 +300,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tO-p9-Vej">
-                                <rect key="frame" x="16" y="91" width="343" height="500"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Rally allows you to track your tennis game by having a spectator observe you as you play. For each point, tap where the error or winner landed on the tennis court to compile data. The observer can also add comments or suggestions at the end of each point! Afterwards, review your shot placement to identify where you can improve.</string>
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvE-0q-spk">
                                 <rect key="frame" x="132" y="611" width="111" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGa-yQ-WBA">
+                                <rect key="frame" x="93" y="469" width="189" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="33"/>
+                                <state key="normal" title="Main Screen">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="V0Z-jZ-R4b"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tO-p9-Vej">
+                                <rect key="frame" x="16" y="0.0" width="343" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Rally allows you to track your singles tennis game by having a spectator observe you as you play. For each point, tap where the error or winner landed on the tennis court to compile data. For best results, only mark unforced errors as errors. Mark the cause of a forced error as a winner. Rally will present you with some simple stats on where you and your opponent are hitting your shots, and Rally will even offer tips!</string>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -309,12 +333,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4v-UY-eXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2692" y="920"/>
+            <point key="canvasLocation" x="2394" y="960"/>
         </scene>
         <!--SixthViewController-->
         <scene sceneID="oDZ-li-TaG">
             <objects>
-                <viewController title="SixthViewController" id="aGt-nX-KZT" customClass="SixthViewController" customModule="rally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SixthViewController" title="SixthViewController" id="aGt-nX-KZT" customClass="SixthViewController" customModule="rally" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8DD-2i-26j"/>
                         <viewControllerLayoutGuide type="bottom" id="Uvv-fu-rlr"/>
@@ -323,35 +347,182 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="123" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="77b-bz-IaT">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="123" id="Mnl-IL-Kv7">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="123"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mnl-IL-Kv7" id="A1T-j7-PMS">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="122"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roa-Sk-VH9">
+                                <rect key="frame" x="93" y="614" width="189" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="33"/>
+                                <state key="normal" title="Main Screen">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <outlet property="dataSource" destination="aGt-nX-KZT" id="Lwj-On-lNb"/>
-                                    <outlet property="delegate" destination="aGt-nX-KZT" id="rVp-Gg-JDf"/>
+                                    <segue destination="xDw-2a-zqm" kind="show" id="zNK-Wu-4IB"/>
                                 </connections>
-                            </tableView>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNp-Pe-YDc">
+                                <rect key="frame" x="180" y="28" width="47" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Short Winners:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjo-wi-mxJ">
+                                <rect key="frame" x="25" y="116" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Left:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgY-6J-zam">
+                                <rect key="frame" x="238" y="150" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Right:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZ5-AX-9Dt">
+                                <rect key="frame" x="238" y="179" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Deep:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQD-k1-aCW">
+                                <rect key="frame" x="238" y="208" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Net:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBU-KY-cHk">
+                                <rect key="frame" x="238" y="237" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Deep Winners:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JL0-b2-f2k">
+                                <rect key="frame" x="25" y="145" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93M-pb-yK7">
+                                <rect key="frame" x="238" y="109" width="112" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Winners:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZg-C2-EIy">
+                                <rect key="frame" x="25" y="364" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Short Winners:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHQ-CR-efG">
+                                <rect key="frame" x="25" y="408" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Left:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVt-oU-1dc">
+                                <rect key="frame" x="238" y="442" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Right:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wz-Dm-geI">
+                                <rect key="frame" x="238" y="471" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Deep:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3m-f1-w1r">
+                                <rect key="frame" x="238" y="500" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors Net:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWg-Aa-cha">
+                                <rect key="frame" x="238" y="529" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Errors:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvC-LT-v04">
+                                <rect key="frame" x="238" y="399" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Opponent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bm6-ad-vXP">
+                                <rect key="frame" x="165" y="351" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Deep Winners:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6a-jm-THp">
+                                <rect key="frame" x="25" y="437" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Winners:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogh-vY-S5H">
+                                <rect key="frame" x="25" y="87" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="77b-bz-IaT" firstAttribute="bottom" secondItem="Uvv-fu-rlr" secondAttribute="top" id="073-WO-vQD"/>
-                            <constraint firstItem="77b-bz-IaT" firstAttribute="leading" secondItem="OFC-Yu-7wo" secondAttribute="leading" id="9d8-LT-xny"/>
-                            <constraint firstItem="77b-bz-IaT" firstAttribute="top" secondItem="8DD-2i-26j" secondAttribute="bottom" id="Rub-mG-ObB"/>
-                            <constraint firstAttribute="trailing" secondItem="77b-bz-IaT" secondAttribute="trailing" id="hBm-O7-G6r"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="listOfPoints" destination="77b-bz-IaT" id="OVi-pU-ajl"/>
+                        <outlet property="numberOfOpponentDeepWinners" destination="a6a-jm-THp" id="I37-uy-x8x"/>
+                        <outlet property="numberOfOpponentErrors" destination="CvC-LT-v04" id="llA-df-cbh"/>
+                        <outlet property="numberOfOpponentErrorsDeep" destination="s3m-f1-w1r" id="Cth-0J-Vp4"/>
+                        <outlet property="numberOfOpponentErrorsLeft" destination="HVt-oU-1dc" id="JDE-PU-dK1"/>
+                        <outlet property="numberOfOpponentErrorsNet" destination="xWg-Aa-cha" id="t1p-BY-i28"/>
+                        <outlet property="numberOfOpponentErrorsRight" destination="1Wz-Dm-geI" id="B8t-h2-V9g"/>
+                        <outlet property="numberOfOpponentShortWinners" destination="MHQ-CR-efG" id="eHT-fy-GTY"/>
+                        <outlet property="numberOfOpponentWinners" destination="MZg-C2-EIy" id="AM7-6R-jQq"/>
+                        <outlet property="numberOfPlayerDeepWinners" destination="JL0-b2-f2k" id="vlX-Vg-LjH"/>
+                        <outlet property="numberOfPlayerErrors" destination="93M-pb-yK7" id="2j2-bl-mDx"/>
+                        <outlet property="numberOfPlayerErrorsDeep" destination="dQD-k1-aCW" id="1SA-o0-xgp"/>
+                        <outlet property="numberOfPlayerErrorsLeft" destination="sgY-6J-zam" id="kZA-iV-cgk"/>
+                        <outlet property="numberOfPlayerErrorsNet" destination="uBU-KY-cHk" id="gGh-yL-QJI"/>
+                        <outlet property="numberOfPlayerErrorsRight" destination="HZ5-AX-9Dt" id="nG5-5R-6j1"/>
+                        <outlet property="numberOfPlayerShortWinners" destination="Pjo-wi-mxJ" id="lqa-sR-EKI"/>
+                        <outlet property="numberOfPlayerWinners" destination="Ogh-vY-S5H" id="ARv-s2-iy8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZx-wW-2zJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -381,6 +552,8 @@
         <image name="tennis court empty" width="560" height="980"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CYe-lY-UrM"/>
+        <segue reference="qle-CG-Kqr"/>
+        <segue reference="zNK-Wu-4IB"/>
+        <segue reference="V0Z-jZ-R4b"/>
     </inferredMetricsTieBreakers>
 </document>
